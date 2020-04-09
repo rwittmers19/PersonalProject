@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Wittmers - Contact</title>
+    <link rel = "stylesheet" href = "beautification.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel = "stylesheet"/>
+    <link rel="shortcut icon" href="pictures/newlogo-final.png" type="image/png">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav_me">
+                    <img class = "logo" alt = "Logo" src = "pictures/newlogo-final.png">
+                    <div class = "name">Ryan Wittmers</div>
+                </div>
+                <div class="nav-buttons open">
+                    <i class="icon ion-md-menu"></i>
+                </div>
+                <ul class="navbar-list">
+                    <li class="nav-buttons close">
+                        <i class="icon ion-md-close"></i>
+                    </li>
+
+                    <li class="nav-contents">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-contents">
+                        <a href="about.html" class="nav-link">About Me</a>
+                    </li>
+
+                    <li class="nav-contents">
+                        <a href="contact.html" class="nav-link first">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="far-back-contact">
+        <div class="container">
+            <div class="inner-width">
+                <!--Contact Section form-->
+                <div class="contact-section">
+                    <h1>Contact Me</h1>
+                    <form class="contact-form" id = "test-form" method = "POST" enctype="multipart/form-data">
+                        <input type="text" class="contact-form-text" placeholder= "Name">
+                        <input type="email" class="contact-form-text" placeholder= "Email">
+                        <textarea class="contact-form-text" placeholder="Message"></textarea>
+                        <input type="submit" disabled = "disabled" class="contact-form-btn" id = "submit-form" value="Submit">
+                    </form>
+                    <p id = "disclaimer">Submit doesn't actually work because I don't want to get spammed :)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h5>
+            &copy; Ryan Wittmers - 2020
+        </h5>
+    </footer>
+
+    <script src = "dostuff.js"></script>
+</body>
+</html>
